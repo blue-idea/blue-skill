@@ -1,0 +1,18 @@
+{
+  "agents": {
+    "coder": "codex exec --full-auto - < {prompt_file}",
+    "tester": "claude -p \"$(cat {prompt_file})\"",
+    "reviewer": "claude -p \"$(cat {prompt_file})\""
+  },
+  "gates": {
+    "lint": "npm run lint",
+    "typecheck": "npm run typecheck",
+    "unit": "npm test -- --runInBand",
+    "build": "npm run build"
+  },
+  "allowed_paths": ["src", "tests", ".github/workflows"],
+  "max_retries": 3,
+  "agent_timeout_seconds": 1800,
+  "gate_timeout_seconds": 600,
+  "commit_message": "feat: complete approved task"
+}

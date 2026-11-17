@@ -1,0 +1,6 @@
+{
+  "tasks": [
+    {"id": "TASK-001", "file": "docs/spec/versions/v1/tasks/TASK-001.md", "branch": "feature/task-001"},
+    {"id": "TASK-002", "file": "docs/spec/versions/v1/tasks/TASK-002.md", "branch": "feature/task-002"}
+  ]
+}

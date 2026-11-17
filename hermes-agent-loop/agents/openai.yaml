@@ -1,0 +1,12 @@
+interface:
+  display_name: Hermes 自动开发闭环
+  short_description: 中文协调规格驱动开发、测试、审查与 Git 提交
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
