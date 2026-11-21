@@ -1,9 +1,9 @@
 ---
 name: hermes-agent-loop
-description: 使用 hns-sdd-v5 和 Hermes 编排闭环，以中文协调自动化、顺序式软件开发。适用于在 macOS 或 Linux 上使用 Codex 或 agy CLI 实现代码、由 agy/Codex 独立测试、由 Claude Code 和可选的 Rabbit 进行安全审查，并通过 tmux 会话、有限修复循环、Git 质量门禁提交、GitHub Actions CI/CD 和 tmux-ui 可视化开展多 Agent 协作的任务。
+description: 使用 hns-sdd 和 Hermes 编排闭环，以中文协调自动化、顺序式软件开发。适用于在 macOS 或 Linux 上使用 Codex 或 agy CLI 实现代码、由 agy/Codex 独立测试、由 Claude Code 和可选的 Rabbit 进行安全审查，并通过 tmux 会话、有限修复循环、Git 质量门禁提交、GitHub Actions CI/CD 和 tmux-ui 可视化开展多 Agent 协作的任务。
 ---
 
-# Hermes Agent Loop（中文工作流）
+# Hermes Agent Loop
 
 **语言要求：所有面向用户的计划、状态、日志摘要、审查报告和最终交付报告均使用简体中文。** 代码标识符、命令和工具原始输出保持原样；提示 Agent 优先用中文报告。
 
